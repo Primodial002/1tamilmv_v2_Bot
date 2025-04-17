@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 from flask import Flask, request
 
-TOKEN = '6411516712:AAFk3hqpYt5erpF0ExpAwW54JytLZR3XuQ4'  # replace your bot token
+TOKEN = '7159797415:AAFPwa7Cm02_WqEmKWFjPXpJlBIIc9Hif34'  # replace your bot token
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -77,7 +77,7 @@ def makeKeyboard(movie_list):
     return markup
 
 def tamilmv():
-    mainUrl = 'https://www.1tamilmv.tel/'
+    mainUrl = 'https://www.1tamilmv.cam/'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
     }
